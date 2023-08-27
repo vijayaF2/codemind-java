@@ -4,15 +4,15 @@ public class Average{
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int[] arr=new int[n];
+        int[] a=new int[n];
         for(int i=0; i<n; i++)
         {
-            arr[i]=sc.nextInt();
+            a[i]=sc.nextInt();
         }
         double sum=0;
         for(int i=0; i<n; i++)
         {
-            sum+=arr[i];
+            sum+=a[i];
         }
         double average=sum/n;
         System.out.printf("%.2f",average);
