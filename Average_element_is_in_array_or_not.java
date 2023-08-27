@@ -4,26 +4,26 @@ public class Average{
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int[] arr=new int[n];
+        int[] a=new int[n];
         for(int i=0; i<n; i++)
         {
-            arr[i]=sc.nextInt();
+            a[i]=sc.nextInt();
         }
         int sum=0;
         for(int i=0; i<n; i++)
         {
-            sum+=arr[i];
+            sum+=a[i];
         }
         int average=sum/n;
-        int c=0;
+        int count=0;
         for(int i=0; i<n; i++)
         {
-            if(arr[i]==average)
+            if(a[i]==average)
             {
-                c+=1;
+                count+=1;
             }
         }
-        if(c==0)
+        if(count==0)
         {
             System.out.println("False");
         }
