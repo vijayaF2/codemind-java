@@ -1,19 +1,20 @@
-import java.util.*;
+import java.util.Scanner;
 public class Sum{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int[] intArray = new int[n];
-        for(int i=0;i<n;i++)
+        int[] a=new int[n];
+        for(int i=0; i<n; i++)
         {
-            intArray[i]=sc.nextInt();
+            a[i]=sc.nextInt();
         }
         int sum=0;
-        for(int eachElement: intArray)
+        for(int i=0; i<n; i++)
         {
-            sum+=eachElement;
+            sum+=a[i];
         }
         System.out.println(sum);
+    
     }
 }
