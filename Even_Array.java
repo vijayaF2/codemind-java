@@ -1,18 +1,18 @@
 import java.util.Scanner;
-public class Even{
+public class Elements{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
-        int[] integerArray=new int[n];
+        int[] a=new int[n];
         for(int i=0; i<n; i++)
         {
-            integerArray[i]=sc.nextInt();
+            a[i]=sc.nextInt();
         }
         int c=0;
         for(int i=0; i<n; i++)
         {
-            if(integerArray[i]%2==0)
+            if(a[i]%2==0)
             {
                 c+=1;
             }
