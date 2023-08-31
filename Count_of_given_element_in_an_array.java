@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Element{
+public class Elements{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
@@ -9,15 +9,15 @@ public class Element{
         {
             a[i]=sc.nextInt();
         }
-        int count=0;
+        int c=0;
         int z=sc.nextInt();
         for(int i=0; i<n; i++)
         {
             if(a[i]==z)
             {
-                count+=1;
+                c+=1;
             }
         }
-        System.out.println(count);
+        System.out.println(c);
     }
 }
