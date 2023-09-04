@@ -3,11 +3,11 @@ public class Grades{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
-        int h,s,f;
+        int h,s,sp;
         h=sc.nextInt();
         s=sc.nextInt();
-        f=sc.nextInt();
-        if(h>50 && s>60 && f>100)
+        sp=sc.nextInt();
+        if(h>50 && s>60 && sp>100)
         {
             System.out.println("10");
         }
@@ -15,15 +15,15 @@ public class Grades{
         {
             System.out.println("9");
         }
-        else if(s>60 && f>100)
+        else if(s>60 && sp>100)
         {
             System.out.println("8");
         }
-        else if(h>50 && f>100)
+        else if(h>50 && sp>100)
         {
             System.out.println("7");
         }
-        else if(h>50 || s>60 || f>100)
+        else if(h>50 || s>60|| sp>100)
         {
             System.out.println("6");
         }
