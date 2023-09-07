@@ -13,11 +13,10 @@ public class Position{
         {
             if(a[i]%2!=0)
             {
-                System.out.println(i);
-                break;
+            System.out.print(i);
+            break;
             }
         }
-        
         
     }
 }
