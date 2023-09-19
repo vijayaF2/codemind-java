@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Numbers{
+public class Even{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
@@ -13,7 +13,7 @@ public class Numbers{
         {
             if(a[i]%2==0)
             {
-                System.out.print(a[i]);
+                System.out.println(a[i]);
                 break;
             }
         }
